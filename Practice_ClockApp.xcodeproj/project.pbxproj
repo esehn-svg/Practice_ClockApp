@@ -10,6 +10,9 @@
 		A890BFAA2F56BE4600419105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A890BFA62F56BE4600419105 /* Assets.xcassets */; };
 		A890BFAB2F56BE4600419105 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BFA72F56BE4600419105 /* LandingView.swift */; };
 		A890BFAC2F56BE4600419105 /* Practice_ClockAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BFA82F56BE4600419105 /* Practice_ClockAppApp.swift */; };
+		A890BFAF2F56C3AD00419105 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BFAE2F56C3AC00419105 /* WorldClockView.swift */; };
+		A890BFB12F56C3CB00419105 /* AlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BFB02F56C3CB00419105 /* AlarmsView.swift */; };
+		A890BFB32F56C3DA00419105 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890BFB22F56C3DA00419105 /* StopwatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +20,9 @@
 		A890BFA62F56BE4600419105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A890BFA72F56BE4600419105 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		A890BFA82F56BE4600419105 /* Practice_ClockAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_ClockAppApp.swift; sourceTree = "<group>"; };
+		A890BFAE2F56C3AC00419105 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		A890BFB02F56C3CB00419105 /* AlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsView.swift; sourceTree = "<group>"; };
+		A890BFB22F56C3DA00419105 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				A890BFA72F56BE4600419105 /* LandingView.swift */,
+				A890BFAE2F56C3AC00419105 /* WorldClockView.swift */,
+				A890BFB02F56C3CB00419105 /* AlarmsView.swift */,
+				A890BFB22F56C3DA00419105 /* StopwatchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A890BFAB2F56BE4600419105 /* LandingView.swift in Sources */,
+				A890BFAF2F56C3AD00419105 /* WorldClockView.swift in Sources */,
+				A890BFB12F56C3CB00419105 /* AlarmsView.swift in Sources */,
+				A890BFB32F56C3DA00419105 /* StopwatchView.swift in Sources */,
 				A890BFAC2F56BE4600419105 /* Practice_ClockAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
